@@ -800,9 +800,9 @@ void _init(void)
 			   vs = strstr(buf,"#version");
 			   if(!vs)
 	    			xtables_error(PARAMETER_PROBLEM, "xt_ndpi: #version missing");
-			   if(!strstr(vs+8,NDPI_GIT_RELEASE))
-	    			xtables_error(PARAMETER_PROBLEM, "xt_ndpi: module version %s != %s",
-						vs+8,NDPI_GIT_RELEASE);
+			   //if(!strstr(vs+8,NDPI_GIT_RELEASE))
+	    		//	xtables_error(PARAMETER_PROBLEM, "xt_ndpi: module version %s != %s",
+				//		vs+8,NDPI_GIT_RELEASE);
 			    pname[0] = ' ';
 			}
 			continue;
