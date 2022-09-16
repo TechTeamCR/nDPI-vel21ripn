@@ -800,6 +800,7 @@ void _init(void)
 			   vs = strstr(buf,"#version");
 			   if(!vs)
 	    			xtables_error(PARAMETER_PROBLEM, "xt_ndpi: #version missing");
+			   // TODO - skipping ndpi version
 			   //if(!strstr(vs+8,NDPI_GIT_RELEASE))
 	    		//	xtables_error(PARAMETER_PROBLEM, "xt_ndpi: module version %s != %s",
 				//		vs+8,NDPI_GIT_RELEASE);
