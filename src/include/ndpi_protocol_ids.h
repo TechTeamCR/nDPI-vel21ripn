@@ -334,6 +334,18 @@ typedef enum {
   NDPI_PROTOCOL_PSIPHON               = 303,
   NDPI_PROTOCOL_ULTRASURF             = 304,
   NDPI_PROTOCOL_THREEMA               = 305,
+  NDPI_PROTOCOL_APPLETVPLUS           = 306,
+  NDPI_PROTOCOL_DIRECTV               = 307,
+  NDPI_PROTOCOL_HBO                   = 308,
+  NDPI_PROTOCOL_VUDU                  = 309,
+  NDPI_PROTOCOL_SHOWTIME              = 310,
+  NDPI_PROTOCOL_DAILYMOTION           = 311,
+  NDPI_PROTOCOL_LIVESTREAM            = 312,
+  NDPI_PROTOCOL_TENCENTVIDEO          = 313,
+  NDPI_PROTOCOL_IHEARTRADIO           = 314,
+  NDPI_PROTOCOL_TIDAL                 = 315,
+  NDPI_PROTOCOL_TUNEIN                = 316,
+  NDPI_PROTOCOL_SIRIUSXMRADIO         = 317,  
 
 #ifdef CUSTOM_NDPI_PROTOCOLS
 #include "../../../nDPI-custom/custom_ndpi_protocol_ids.h"
