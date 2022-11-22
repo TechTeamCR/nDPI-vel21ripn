@@ -344,7 +344,9 @@ typedef enum {
   NDPI_PROTOCOL_IHEARTRADIO           = 313,
   NDPI_PROTOCOL_TIDAL                 = 314,
   NDPI_PROTOCOL_TUNEIN                = 315,
-  NDPI_PROTOCOL_SIRIUSXMRADIO         = 316,  
+  NDPI_PROTOCOL_SIRIUSXMRADIO         = 316,
+  NDPI_PROTOCOL_UBISOFT               = 317,
+  NDPI_PROTOCOL_ROBLOX                = 318,
 
 #ifdef CUSTOM_NDPI_PROTOCOLS
 #include "../../../nDPI-custom/custom_ndpi_protocol_ids.h"
