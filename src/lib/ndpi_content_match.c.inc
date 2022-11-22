@@ -1780,9 +1780,6 @@ ndpi_protocol_match host_match[] =
    { "roblox-t4.cachefly.net",            "Roblox", NDPI_PROTOCOL_ROBLOX, NDPI_PROTOCOL_CATEGORY_GAME, NDPI_PROTOCOL_FUN, NDPI_PROTOCOL_DEFAULT_LEVEL },
    { "roblox.com",                        "Roblox", NDPI_PROTOCOL_ROBLOX, NDPI_PROTOCOL_CATEGORY_GAME, NDPI_PROTOCOL_FUN, NDPI_PROTOCOL_DEFAULT_LEVEL },
 
-
-
-
 #ifdef CUSTOM_NDPI_PROTOCOLS
 #include "../../../nDPI-custom/custom_ndpi_content_match_host_match.c.inc"
 #endif
